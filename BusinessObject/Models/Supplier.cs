@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AsssignemntEF.Models
+namespace BusinessObject.Models
 {
-    internal class Supplier
+    public class Supplier
     {
         public int SupplierID { get; set; }
         public string SupplierName { get; set; }

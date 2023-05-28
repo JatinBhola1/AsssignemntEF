@@ -1,4 +1,4 @@
-﻿using AsssignemntEF.Models;
+﻿using BusinessObject.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AsssignemntEF.Context
+namespace DAL.Context
 {
-    internal class InventoryDbContext:DbContext
+    public class InventoryDbContext:DbContext
     {
         public InventoryDbContext()
         {
